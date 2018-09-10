@@ -20,5 +20,5 @@ function addNewLiOnClick() {
      addNewElementAsLi()
 
   })
-  document.querySelector('form').reset
+  document.querySelector('input').value = ''
 }
