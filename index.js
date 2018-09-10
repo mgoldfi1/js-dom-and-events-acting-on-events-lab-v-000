@@ -20,4 +20,5 @@ function addNewLiOnClick() {
     return document.querySelector('.employee-list').append(retrieveEmployeeInformation())
 
   })
+  document.querySelector('input').value = ''
 }
