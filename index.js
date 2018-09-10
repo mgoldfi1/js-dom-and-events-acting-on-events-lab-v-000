@@ -18,7 +18,7 @@ function addNewElementAsLi() {
 function addNewLiOnClick() {
   document.querySelector('form').addEventListener('click', function(e){
       event.preventDefault()
-    return document.querySelector('.employee-list').append(retrieveEmployeeInformation())
+    return addNewElementAsLi
 
   })
 }
