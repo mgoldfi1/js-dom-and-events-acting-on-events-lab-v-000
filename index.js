@@ -14,9 +14,9 @@ function retrieveEmployeeInformation() {
 function addNewElementAsLi() {
   return document.querySelector('.employee-list').append(retrieveEmployeeInformation())
 }
-//
-// function addNewLiOnClick() {
-//   document.querySelector('form').addEventListener('click', function(e){
-//     return addNewElementAsLi()
-//   })
-// }
+
+function addNewLiOnClick() {
+  document.querySelector('form').addEventListener('click', function(e){
+    return addNewElementAsLi()
+  })
+}
