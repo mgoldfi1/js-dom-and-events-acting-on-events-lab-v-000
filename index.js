@@ -19,5 +19,5 @@ function addNewLiOnClick() {
   document.querySelector('form').addEventListener('click', function(e){
     return document.querySelector('.employee-list').append(retrieveEmployeeInformation())
   })
-  return document.querySelector('input').value = ''
+     document.querySelector('input').value = ''
 }
