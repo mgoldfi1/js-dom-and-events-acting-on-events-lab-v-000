@@ -14,3 +14,7 @@ function retrieveEmployeeInformation() {
 function addNewElementAsLi() {
   return document.querySelector('.employee-list').append(retrieveEmployeeInformation())
 }
+
+function addNewLiOnClick() {
+  
+}
