@@ -12,7 +12,7 @@ function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi() {
-  return document.querySelector('.employee-list').append(<li>`${retrieveEmployeeInformation()}`</li>)
+  return document.querySelector('.employee-list').append(`<li>${retrieveEmployeeInformation()}</li>`)
 }
 
 function addNewLiOnClick() {
